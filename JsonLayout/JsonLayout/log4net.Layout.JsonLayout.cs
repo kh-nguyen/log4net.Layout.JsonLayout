@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace log4net.Layout
+﻿namespace log4net.Layout
 {
     public class JsonLayout : log4net.Layout.LayoutSkeleton
     {
