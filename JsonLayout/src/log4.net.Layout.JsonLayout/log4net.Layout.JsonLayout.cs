@@ -7,6 +7,8 @@
         }
 
         public override void Format(System.IO.TextWriter writer, Core.LoggingEvent loggingEvent) {
+            loggingEvent.Fix = Core.FixFlags.All;
+
             writer.Write(Newtonsoft.Json.JsonConvert.SerializeObject(loggingEvent));
         }
     }
