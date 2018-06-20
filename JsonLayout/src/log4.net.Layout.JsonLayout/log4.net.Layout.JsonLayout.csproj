@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>log4.net.Layout.JsonLayout Class Library</Description>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Authors>khoanguyen</Authors>
+    <TargetFramework>net451</TargetFramework>
+    <AssemblyName>log4.net.Layout.JsonLayout</AssemblyName>
+    <PackageId>log4.net.Layout.JsonLayout</PackageId>
+    <PackageProjectUrl>https://github.com/kh-nguyen/log4net.Layout.JsonLayout</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/kh-nguyen/log4net.Layout.JsonLayout/blob/master/LICENSE</PackageLicenseUrl>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
+    <PackageReference Include="log4net" Version="2.0.5" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

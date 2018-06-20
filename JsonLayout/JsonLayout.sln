@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D1529EE-016C-447E-88A4-36BE5A38119C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4F48713-BA04-4EFD-8FAE-1AFD530391C0}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "log4.net.Layout.JsonLayout", "src\log4.net.Layout.JsonLayout\log4.net.Layout.JsonLayout.xproj", "{58B5B8AD-4617-447D-ACA4-CF31E901AB01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "log4.net.Layout.JsonLayout", "src\log4.net.Layout.JsonLayout\log4.net.Layout.JsonLayout.csproj", "{58B5B8AD-4617-447D-ACA4-CF31E901AB01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{58B5B8AD-4617-447D-ACA4-CF31E901AB01} = {4D1529EE-016C-447E-88A4-36BE5A38119C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3567FE3D-E9B9-417A-B881-CD13E6995E54}
 	EndGlobalSection
 EndGlobal
